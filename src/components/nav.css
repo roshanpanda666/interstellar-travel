@@ -1,0 +1,32 @@
+html{
+    background-color: black;
+    color: white;
+}
+.parrentnav{
+    display: flex;
+    justify-content: end;
+}
+.fathernav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 1.4px solid #4D9FFF;
+    width: 700px;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+
+.tech{
+    margin-right: 20px;
+}
+a{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+a:hover{
+    color:#ffffff;
+    display: block;
+    
+}

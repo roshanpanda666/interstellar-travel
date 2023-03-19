@@ -1,0 +1,125 @@
+.fatherhome{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+
+}
+
+.leftside{
+    width: 45%;
+    
+    
+}
+
+.rightside{
+    
+    width: 45%;
+    
+    
+}
+.interstaller{
+    font-size: 3rem;
+    width: 70%;
+    text-align: center;
+}
+.travel{
+    width: 70%;
+    font-size: 3rem;
+    text-align: center;
+    
+    
+}
+
+.spacetxt{
+    font-size: 10rem;
+    margin-top: 10%;
+}
+
+.thequote{
+   
+    width: 60%;
+}
+
+.thebutton{
+    display: flex;
+    justify-content: end;
+
+    width: 57%;
+    margin-top: 6%;
+    
+}
+
+.booknow{
+    height: 40px;
+    width: 160%;
+    background-color: black;
+    border: 1px solid #4D9FFF;
+    color: white;
+    transition-duration: 0.30s;
+    
+}
+
+.booknow:hover{
+    -webkit-box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
+-moz-box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
+box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
+}
+
+.earthimg{
+    height: 105%;
+    width: 105%;
+}
+
+.playbtn{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .fatherhome{
+        flex-direction: column-reverse;
+        
+        }
+
+        .rightside{
+    
+            width: 95%;
+            
+            
+        }
+
+        .interstaller{
+            font-size: 3rem;
+            width: 100%;
+            text-align: center;
+           
+        }
+        .travel{
+            width: 100%;
+            font-size: 3rem;
+            text-align: center;
+            
+            
+        }
+
+        .leftside{
+            width: 100%;
+            
+            
+        }
+
+        .spacetxt{
+            font-size: 8rem;
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        .thequote{
+   
+            width: 100%;
+            text-align: center;
+        }
+        
+  }
