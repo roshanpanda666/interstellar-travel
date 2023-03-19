@@ -25,8 +25,11 @@ a{
     color: rgb(179, 179, 179);
     text-decoration: none;
 }
-a:hover{
-    color:#ffffff;
-    display: block;
-    
+
+a:active{
+    color: #4D9FFF;
 }
+.homeclick{
+    color: #4D9FFF;
+}
+
