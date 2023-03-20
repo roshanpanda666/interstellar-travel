@@ -1,0 +1,246 @@
+.father{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftsided{
+    
+    width: 50rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+}
+.rightsided{
+    
+    width: 40rem;
+    height: 45rem;
+    
+}
+
+.pickyourdestination{
+    margin-top: 5rem;
+}
+
+.marsefather{
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+}
+.marsjpg{
+
+    width: 100%;
+    height: 100%;
+}
+
+.nextbuttondad{
+    display: flex;
+    justify-content: end;
+}
+
+.nextbtn{
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border: 1px solid #4D9FFF;
+    transition-duration: 0.30s;
+}
+
+.nextbtn:hover{
+    -webkit-box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
+-moz-box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
+box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
+}
+.lanetnavigationfather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planetnavigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+}
+.button{
+    margin-top: 40px;
+    justify-content: center;
+    margin-right: 30px;
+
+}
+.moonbtn{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 1.5rem;
+}
+.marsbtn{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 1.5rem;
+}
+.europabtn{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 1.5rem;
+}
+.titanbtn{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.planettxt{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.planetname{
+    font-size: 9rem;
+}
+
+.planetfact{
+    display: flex;
+    justify-content: center;
+}
+
+.planetfacttxt{
+    font-size: 1.4rem;
+    width: 57%;
+    
+}
+.distancecompfather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+.distancecomp{
+    display: flex;
+    
+    width: 65%;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.leftupper{
+    font-size: 1rem;
+}
+
+.leftdown{
+    font-size: 2.4rem;
+}
+
+.marsplanetname{
+    font-size: 9rem;
+    color: #E77727;
+}
+.titanplanetname{
+    font-size: 9rem;
+    color: #01891a;
+}
+.europaplanetname{
+    font-size: 9rem;
+    color: #a26a00;
+}
+.moonbtn{
+    color: white;
+}
+.marsbtn{
+    color: #E77727;
+}
+.titanbtn{
+    color: #01891a;
+}
+.europabtn{
+
+    
+    color: #ab8301;
+}
+.underbutton{
+    display: none;
+}
+.glitchtxt{
+    font-size: 0.5rem;
+}
+@media only screen and (max-width: 600px) {
+    .father{
+        flex-wrap: wrap;
+    }
+    .nextbtn{
+        display: none;
+    }
+    .txtfordestination{
+        text-align: center;
+    }
+    .planetname{
+        
+        font-size: 5rem;
+
+    }
+    .distancecomp{
+        width: 90%
+    }
+    .planetnavigation{
+        margin-left: 9%;
+        justify-content: center;
+        width: 90%;
+        margin-top: 10px;
+        
+    }
+    .rightsided{
+        width: 100%;
+    }
+    .button{
+        margin-top: -100px;
+        margin-right: 10px;
+    }
+
+    .marsplanetname{
+        font-size: 5rem;
+        color: #E77727;
+    }
+    .titanplanetname{
+        font-size: 5rem;
+        color: #01891a;
+    }
+    .europaplanetname{
+        font-size: 5rem;
+        color: #a26a00;
+    }
+    .planetfacttxt{
+        width:100%;
+    }
+    .leftdown{
+        font-size: 1.4rem;
+    }
+    .anotherbtn{
+        display: flex;
+        justify-content: center;
+    }
+    .underbutton{
+        display: block;
+        height: 40px;
+        width: 90px;
+        background-color: black;
+        border: 1px solid #4D9FFF ;
+        color: white;
+
+    }
+
+    .txtfordestination{
+        margin-top: -40px;
+    }
+   
+  }
