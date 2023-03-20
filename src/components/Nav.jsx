@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './nav.css'
 import { Link } from 'react-router-dom'
 const Nav = () => {
-  let[beforhome,clickhome]=useState()
+  let[beforhome,clickhome]=useState("a")
   let[befordestination,clickdestination]=useState()
   let[beforcrew,clickcrew]=useState()
   let[befortech,clicktech]=useState()
