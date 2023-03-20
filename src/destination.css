@@ -208,7 +208,7 @@ box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
         width: 100%;
     }
     .button{
-        margin-top: -100px;
+        margin-top: -300px;
         margin-right: 10px;
     }
 
@@ -224,8 +224,27 @@ box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
         font-size: 5rem;
         color: #a26a00;
     }
+    .planetname{
+        margin-top: -150px;
+    }
+    .marsplanetname{
+        margin-top: -150px;
+    }
+    .titanplanetname{
+        margin-top: -150px;
+    }
+    .europaplanetname{
+        margin-top: -150px;
+    }
     .planetfacttxt{
+        margin-top: -50px;
         width:100%;
+    }
+    .distancecomp{
+        margin-top: -150px;
+    }
+    .underbutton{
+        margin-top: -150px;
     }
     .leftdown{
         font-size: 1.4rem;
@@ -246,6 +265,12 @@ box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
 
     .txtfordestination{
         margin-top: -40px;
+    }
+    .rightsided{
+        height: 300px;
+    }
+    .distancecompfather{
+        height: 300px;
     }
    
   }
