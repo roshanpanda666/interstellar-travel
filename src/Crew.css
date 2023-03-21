@@ -5,16 +5,17 @@
     flex-wrap: wrap;
 
 }
+
 .leftsidecrew{
     
     width: 40rem;
-    height: 40rem;
+    
     
 }
 .rightsidecrew{
     
     width: 40rem;
-    height: 40rem;
+    
 }
 .meetyourcrewparrent{
     display: flex;
@@ -126,6 +127,7 @@
     }
     .commanderhimself{
         
-        height: 500px;
+        height: 400px;
+        margin-top: -80px;
     }
   }
