@@ -1,0 +1,131 @@
+.allfathercrew{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.leftsidecrew{
+    
+    width: 40rem;
+    height: 40rem;
+    
+}
+.rightsidecrew{
+    
+    width: 40rem;
+    height: 40rem;
+}
+.meetyourcrewparrent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+
+}
+.meetyourcrewtxt{
+    margin-top: 40px;
+    font-size: 2rem;
+    
+}
+.commanderparrent{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+}
+.commandertxt{
+    font-size: 2rem;
+    
+}
+
+.commandertxt{
+    
+    color: rgba(240, 248, 255, 0.599);
+}
+
+.commandernamec{
+    font-size: 2rem;
+}
+.commandernamep{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.commanderbg{
+    display: flex;
+    justify-content: center;
+}
+.commanderbgtxt{
+    margin-top: 2%;
+    font-size: 1rem;
+   
+}
+.thebuttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.navigatecrewbtn{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.366);
+    border: 2px solid white;
+    justify-content: space-around;
+    margin-left: 20px;
+    
+}
+.navigatecrewbtn:hover{
+    background-color: white;
+    
+}
+.navigatecrewbtnaf{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 20px;
+    
+}
+.thebuutonself{
+    
+    align-items: center;
+    display: flex;
+    
+}
+.commanderhimself{
+    margin-top: 10%;
+    height: 600px;
+}
+.nextbtnn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .commandernamec{
+        margin: 40px;
+        font-size: 2rem;
+    }
+    .thebuutonself{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin: 30px;
+    }
+    .crewpic{
+        display: flex;
+        justify-content:center ;
+    }
+    .commanderhimself{
+        
+        height: 500px;
+    }
+  }
