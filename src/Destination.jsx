@@ -4,10 +4,10 @@ import './destination.css'
 import { Link } from 'react-router-dom'
 import {Glitch} from "react-teffex";
 const Destination = () => {
-  const[moonimgbe,moonimgaf]=useState(<img className='marsjpg' src="moon.jpg" alt="" />)
+  const[moonimgbe,moonimgaf]=useState(<img className='marsjpg' src="moon.png" alt="" />)
   const[thebigtxtbe,thebigtextaf]=useState("MOON")
   const[planetname,planetnameaf]=useState("planetname")
-  const[moonbtn,moonbtnaf]=useState("moonbtn")
+  const[moonbtn,moonbtnaf]=useState("moonbtnaf")
   const[marsbtn,marsbtnaf]=useState("moonbtn")
   const[titanbtn,titanbtnaf]=useState("moonbtn")
   const[europabtn,europabtnaf]=useState("moonbtn")
@@ -16,10 +16,10 @@ const Destination = () => {
   const[days,daysaf]=useState("3 DAYS")
   const moonfun=()=>{
 
-    moonimgaf(<img className='marsjpg' src="moon.jpg" alt="" />)
+    moonimgaf(<img className='marsjpg' src="moon.png" alt="" />)
     thebigtextaf("MOON")
     planetnameaf("planetname")
-    moonbtnaf("moonbtn")
+    moonbtnaf("moonbtnaf")
     marsbtnaf("moonbtn")
     titanbtnaf("moonbtn")
     europabtnaf("moonbtn")
@@ -28,7 +28,7 @@ const Destination = () => {
     daysaf("3 DAYS")
   }
   const marsfun=()=>{
-    moonimgaf(<img className='marsjpg' src="mars.jpg" alt="" />)
+    moonimgaf(<img className='marsjpg' src="mars.png" alt="" />)
     thebigtextaf("MARS")
     planetnameaf("marsplanetname")
     marsbtnaf("marsbtn")
@@ -41,23 +41,25 @@ const Destination = () => {
 
   }
   const titanfun=()=>{
-    moonimgaf(<img className='marsjpg' src="titanjpeg.jpeg" alt="" />)
+    moonimgaf(<img className='marsjpg' src="titan.png" alt="" />)
     thebigtextaf("TITAN")
     planetnameaf("titanplanetname")
     titanbtnaf("titanbtn")
     marsbtnaf("moonbtn")
     europabtnaf("moonbtn")
+    moonbtnaf("moonbtn")
     planetfacttxtts("The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.")
     rangeaf("1.6 BIL. KM")
     daysaf("7 YEARS")
   }
   const europafun=()=>{
-    moonimgaf(<img className='marsjpg' src="europa.jpg" alt="" />)
+    moonimgaf(<img className='marsjpg' src="europa.png" alt="" />)
     thebigtextaf("EUROPA")
     planetnameaf("europaplanetname")
     europabtnaf("europabtn")
     titanbtnaf("moonbtn")
     marsbtnaf("moonbtn")
+    moonbtnaf("moonbtn")
     planetfacttxtts("The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.")
     rangeaf("628 MIL. KM")
     daysaf("3 YEARS")

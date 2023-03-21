@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-around;
 }
+body{
+    background-image: url("planetbg.jpeg");
+    height: 120vh;
+}
 
 .leftsided{
     
@@ -41,7 +45,7 @@
 .nextbtn{
     height: 40px;
     width: 90px;
-    background-color: black;
+    background-color: transparent;
     color: white;
     border: 1px solid #4D9FFF;
     transition-duration: 0.30s;
@@ -71,28 +75,36 @@ box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
 
 }
 .moonbtn{
-    background-color: black;
+    background-color: transparent;
     color: white;
     border: none;
     height: 30px;
     font-size: 1.5rem;
 }
-.marsbtn{
-    background-color: black;
+.moonbtnaf{
+    height: 30px;
+    font-size: 1.5rem;
     color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.marsbtn{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
     border: none;
     height: 30px;
     font-size: 1.5rem;
 }
 .europabtn{
-    background-color: black;
+    background-color: transparent;
     color: white;
     border: none;
     height: 30px;
     font-size: 1.5rem;
 }
 .titanbtn{
-    background-color: black;
+    background-color: transparent;
     color: white;
     border: none;
     height: 30px;
@@ -257,7 +269,7 @@ box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
         display: block;
         height: 40px;
         width: 90px;
-        background-color: black;
+        background-color: transparent;
         border: 1px solid #4D9FFF ;
         color: white;
 
@@ -271,6 +283,9 @@ box-shadow: -1px 2px 22px 1px rgba(25,152,255,1);
     }
     .distancecompfather{
         height: 300px;
+    }
+    body{
+        height: 170vh;
     }
    
   }

@@ -54,7 +54,7 @@ const Home = () => {
         </div>
       </div>
       <div className="rightside">
-        <img className='earthimg' src="earth.webp" alt="" />
+        <img className='earthimg' src="newearth.png" alt="" />
       </div>
       <div className="musicbtn">
         <button className='playbtn' onClick={playmusic}>{notplay}</button>

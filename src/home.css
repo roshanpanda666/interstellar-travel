@@ -53,7 +53,7 @@ flex-wrap: wrap;
 .booknow{
     height: 40px;
     width: 160%;
-    background-color: black;
+    background-color: transparent;
     border: 1px solid #4D9FFF;
     color: white;
     transition-duration: 0.30s;
