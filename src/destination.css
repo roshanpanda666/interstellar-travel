@@ -11,14 +11,14 @@ body{
 .leftsided{
     
     width: 50rem;
-    height: 45rem;
+    
     display: flex;
     flex-direction: column;
 }
 .rightsided{
     
     width: 40rem;
-    height: 45rem;
+    
     
 }
 
