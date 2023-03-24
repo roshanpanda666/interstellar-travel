@@ -1,0 +1,44 @@
+.bodytech{
+    border: 1px solid red;
+}
+
+.rocketlunchparrent{
+    
+    border: 1px solid red;
+    
+}
+
+.parrentlunchtxt{
+    margin: 80px;
+    font-size: 2rem;
+}
+.downsidetech{
+    display: flex;
+    border: 1px solid purple;
+}
+.leftdownside{
+    margin-left: 80px;
+    border: 1px solid red;
+    height: 400px;
+    width: 500px;
+}
+
+.rightdownside{
+    margin-left: 200px;
+    border: 1px solid red;
+    height: 400px;
+    width: 500px;
+}
+.rocketimg{
+    height: 100%;
+}
+.terminologyoftxt{
+    color: rgb(199, 199, 199);
+}
+.rocketitself{
+    margin-top: 50px;
+    font-size: 4rem;
+}
+.rocketfacttxt{
+    margin-top: 50px;
+}
