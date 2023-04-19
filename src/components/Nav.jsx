@@ -34,9 +34,7 @@ const Nav = () => {
         <Link className={beforcrew}onClick={crew} to={"/Crew"}>Crew</Link>
         </div>
 
-        <div onClick={tech}>
-        <Link  className={befortech} to={"/Tech"}>Tech</Link>
-        </div>
+        
 
       </div>
     </div>

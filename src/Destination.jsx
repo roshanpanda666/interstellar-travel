@@ -28,7 +28,7 @@ const Destination = () => {
     daysaf("3 DAYS")
   }
   const marsfun=()=>{
-    moonimgaf(<img className='marsjpg' src="mars.png" alt="" />)
+    moonimgaf(<img className='marsjpg2' src="mars.png" alt="" />)
     thebigtextaf("MARS")
     planetnameaf("marsplanetname")
     marsbtnaf("marsbtn")
@@ -41,7 +41,7 @@ const Destination = () => {
 
   }
   const titanfun=()=>{
-    moonimgaf(<img className='marsjpg' src="titan.png" alt="" />)
+    moonimgaf(<img className='marsjpg3' src="titan.png" alt="" />)
     thebigtextaf("TITAN")
     planetnameaf("titanplanetname")
     titanbtnaf("titanbtn")
@@ -53,7 +53,7 @@ const Destination = () => {
     daysaf("7 YEARS")
   }
   const europafun=()=>{
-    moonimgaf(<img className='marsjpg' src="europa.png" alt="" />)
+    moonimgaf(<img className='marsjpg4' src="europa.png" alt="" />)
     thebigtextaf("EUROPA")
     planetnameaf("europaplanetname")
     europabtnaf("europabtn")

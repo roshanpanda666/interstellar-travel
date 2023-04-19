@@ -51,9 +51,7 @@ const Home = () => {
           <Link to={"/Destination"}><button className='booknow'>BOOK NOW</button></Link>
             
           </div>
-          <div className="madewithlove">
-            made with love by Roshan
-          </div>
+          
         </div>
       </div>
       <div className="rightside">

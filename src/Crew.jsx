@@ -95,7 +95,7 @@ const Crew = () => {
         
             <div className="nextbtnn">
               <div className="thebtn">
-              <Link to={"/Tech"}> <button className='nextbtn' >NEXT</button></Link>
+              
              
               </div>
              
